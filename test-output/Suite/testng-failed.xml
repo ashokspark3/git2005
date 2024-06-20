@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="value2" value="kanmani"/>
+    <parameter name="value1" value="kani"/>
+    <parameter name="anbu" value="50"/>
+    <parameter name="ashok" value="45"/>
+    <classes>
+      <class name="org.parameterpassing.Parameter123">
+        <methods>
+          <include name="bye"/>
+        </methods>
+      </class> <!-- org.parameterpassing.Parameter123 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

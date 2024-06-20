@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="ashok" value="45"></parameter>
+	  <parameter name="anbu" value="50"></parameter>
+	  <parameter name="valu1" value="kani"></parameter>
+	  <parameter name="value2" value="kanmani"></parameter>
+	  <classes>
+		  <class name="org.parameterpassing.Parameter123"></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
